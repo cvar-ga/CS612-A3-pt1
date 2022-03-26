@@ -26,4 +26,5 @@ public class Surgeon extends Doctor{
         if(!operating) isOperating = " is not operating now.";
         System.out.println (name + isOperating);
     }
+
 }

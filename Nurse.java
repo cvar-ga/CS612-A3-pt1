@@ -16,4 +16,12 @@ public class Nurse extends HospitalEmployee{
         super.work();
         System.out.println (name + " is a nurse with " + numOfPatients + " patients.");
     }
+
+    public int getNumOfPatients() {
+        return numOfPatients;
+    }
+
+    public void setNumOfPatients(int numOfPatients) {
+        this.numOfPatients = numOfPatients;
+    }
 }

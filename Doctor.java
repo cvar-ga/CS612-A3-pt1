@@ -16,4 +16,12 @@ public class Doctor extends HospitalEmployee{
         super.work();
         System.out.println (name + " is a(n) " + specialty + " doctor.");
     }
+
+    public String getSpecialty() {
+        return specialty;
+    }
+
+    public void setSpecialty(String specialty) {
+        this.specialty = specialty;
+    }
 }
