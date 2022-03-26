@@ -1,7 +1,14 @@
 # CS612-A3-pt1
 The GitHub repository for Part 1 of Assignment 3 in CS 612 at Pace University.
 
-The main Java class in this repository is Hospital.java. To run this program, clone this entire repository and load it up in a Java IDE of your choosing. I personally used IntelliJ. Then, configure your IDE to compile the source code and run Hospital.java as the main class. The expected output is as follows:
+The main Java class in this repository is Hospital.java. To run this program, clone this entire repository, ```cd``` into it from the Terminal, and run the following commands to compile and run the Java program:
+
+```
+javac Hospital.java
+java Hospital
+```
+
+The expected output is as follows:
 
 ```
 Vito	123
